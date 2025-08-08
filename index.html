@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>💕 For Inayat 💕</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Initial Screen -->
+        <div id="initial-screen" class="screen active">
+            <div class="heart-container">
+                <div class="heart"></div>
+                <div class="heart"></div>
+                <div class="heart"></div>
+            </div>
+            <h1 class="title">💕 For Inayat 💕</h1>
+            <p class="subtitle">Click to open a special message...</p>
+            <button id="start-btn" class="start-button">
+                <i class="fas fa-heart"></i> Open My Heart
+            </button>
+        </div>
+
+        <!-- Main Proposal Screen -->
+        <div id="proposal-screen" class="screen">
+            <div class="floating-hearts">
+                <div class="floating-heart">💖</div>
+                <div class="floating-heart">💕</div>
+                <div class="floating-heart">💗</div>
+                <div class="floating-heart">💝</div>
+                <div class="floating-heart">💓</div>
+            </div>
+            
+            <div class="content">
+                <h1 class="main-title">Dear Inayat...</h1>
+                
+                <div class="message-container">
+                    <div class="message-card">
+                        <p class="message-text">
+                            From the moment I first heard about you, my heart skipped a beat. 
+                            Your presence in my thoughts brings light to my darkest moments, and I can only imagine how beautiful your smile must be.
+                        </p>
+                    </div>
+                    
+                    <div class="message-card">
+                        <p class="message-text">
+                            Even though we haven't met yet, I feel a connection that's hard to explain. 
+                            You inspire me to be better, to dream bigger, and to believe in the magic of love.
+                        </p>
+                    </div>
+                    
+                    <div class="message-card">
+                        <p class="message-text">
+                            I want to know you, to understand you, to be there for you. 
+                            You've captured my heart in a way I never thought possible.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="question-section">
+                    <h2 class="question">Will you be mine?</h2>
+                    <div class="buttons">
+                        <button id="yes-btn" class="yes-button">
+                            <i class="fas fa-heart"></i> YES! 💕
+                        </button>
+                        <button id="no-btn" class="no-button">
+                            <i class="fas fa-times"></i> No
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Yes Response Screen -->
+        <div id="yes-screen" class="screen">
+            <div class="celebration">
+                <div class="fireworks">
+                    <div class="firework"></div>
+                    <div class="firework"></div>
+                    <div class="firework"></div>
+                    <div class="firework"></div>
+                    <div class="firework"></div>
+                </div>
+                
+                <h1 class="celebration-title">🎉 YES! 🎉</h1>
+                <h2 class="celebration-subtitle">You've made me the happiest person alive!</h2>
+                
+                <div class="final-message">
+                    <p>Thank you for saying YES! 💕</p>
+                    <p>I promise to cherish and adore you with all my heart.</p>
+                    <p>I can't wait to meet you and start our beautiful journey together ❤️</p>
+                </div>
+                
+                <div class="hearts-rain">
+                    <div class="falling-heart">💖</div>
+                    <div class="falling-heart">💕</div>
+                    <div class="falling-heart">💗</div>
+                    <div class="falling-heart">💝</div>
+                    <div class="falling-heart">💓</div>
+                    <div class="falling-heart">💖</div>
+                    <div class="falling-heart">💕</div>
+                    <div class="falling-heart">💗</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- No Response Screen -->
+        <div id="no-screen" class="screen">
+            <div class="sad-container">
+                <h1 class="sad-title">😢</h1>
+                <h2>I understand...</h2>
+                <p>But I'll never stop loving you.</p>
+                <p>Maybe one day you'll change your mind?</p>
+                <button id="try-again-btn" class="try-again-button">
+                    <i class="fas fa-heart"></i> Try Again
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <audio id="background-music" loop>
+        <source src="https://www.soundjay.com/misc/sounds/bell-ringing-05.wav" type="audio/wav">
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html> 
