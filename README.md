@@ -1,4 +1,4 @@
-# 💕 Love Proposal for Inayat 💕
+# 💕 Love Proposal 💕
 
 A beautiful, interactive love proposal created with HTML, CSS, and JavaScript. This romantic web application features stunning animations, floating hearts, fireworks, and a heartfelt message.
 
@@ -101,5 +101,6 @@ The proposal includes three heartfelt messages:
 ---
 
 **Made with 💕 for Inayat**
+
 
 *This romantic proposal is designed to create a memorable and beautiful experience for your special someone.* 
